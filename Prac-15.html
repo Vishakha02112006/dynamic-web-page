@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Page</title>
+</head>
+
+<body>
+
+    <h1>Dynamic Web Page</h1>
+
+    <p id="message">Click the button to display dynamic content.</p>
+
+    <button onclick="showMessage()">Show Dynamic Content</button>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello! This content is displayed dynamically using JavaScript.";
+        }
+    </script>
+
+</body>
+
+</html>
